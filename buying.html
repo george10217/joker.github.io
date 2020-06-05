@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Buying | Joker Clothing</title>
+    <link rel="shortcut icon" type="image/png" href="images/si.png" >
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type= "text/javascript" src="javascript/javascript.js"></script>
+</head>
+
+<body>
+    <div id="nbar">
+        <img src= "images/33.png" data-aos="zoom-in" data-aos-duration="2000">
+        <h2 data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+            1 Begley Street Adelaide South Australia <br>5000<br>NO: (08) 8296 9558</h2>
+    </div>
+    <div id="jokhead" data-aos="fade-right" data-aos-duration="2000"></div>
+        <form name="Options">
+            
+<div class="div" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+    <fieldset style="width:275px; position: absolute; border: none; ">
+        <img src="images/ws.png"><br>
+        <input type="radio" name="shirtSelected" value="Shirt1" onclick="setShirt();" onchange="ggetOptions(this.value);">Shirt1 ($100)<br>
+    </fieldset>
+</div>
+
+<div class="div1" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true"> 
+    <fieldset style="width:275px; position: absolute; border: none; ">
+        <img src="images/js.png"><br>
+        <input type="radio" name="shirtSelected" value="Shirt2" onclick="setShirt();" onchange="ggetOptions(this.value);">Shirt2 ($150)<br>
+    </fieldset>
+</div>
+    
+<div class="div2" data-aos="fade-right" data-aos-duration="800" data-aos-once="true"> 
+    <fieldset style="width:275px;  position: absolute; border: none;">
+    <img src="images/wsa.png"><br>
+        <input type="radio" name="shirtSelected" value="Shirt3" onclick="setShirt();" onchange="ggetOptions(this.value);">Shirt3 ($180)<br>
+    </fieldset>
+</div>
+
+<div class="div3" data-aos="fade-left" data-aos-duration="800" data-aos-once="true"> 
+    <fieldset style="width:275px;  position: absolute; border: none;">
+    <img src="images/p1.png">
+
+        <input type="radio" name="pantSelected" value="Pant1" onclick="setShirt();" onchange="ggetOptions(this.value);">Pant 1($200)<br>
+
+    </fieldset>
+</div>
+
+<div class="div4" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true"> 
+    <fieldset style="width:275px;  position: absolute; border: none;">
+    <img src="images/p2.png">
+                  <input type="radio" name="pantSelected" value="Pant2" onclick="setShirt();" onchange="ggetOptions(this.value);">Pant 2 ($250)<br>
+
+    </fieldset>
+</div>
+
+<div class="div5" data-aos="fade-right" data-aos-duration="800" data-aos-once="true"> 
+    <fieldset style="width:275px;  position: absolute; border: none;">
+    <img src="images/p3.png">
+      
+
+        <input type="radio" name="pantSelected" value="Pant2" onclick="setShirt();" onchange="ggetOptions(this.value);">Pant 3 ($290)<br>
+    </fieldset>
+</div>
+
+
+<div id = select>
+    <fieldset id="fset">
+        
+        <select name="dList" style="width:275px; background: linear-gradient(to right, #a0d800, #00ff8f);
+        height: 35px; border: solid black; cursor:s-resize;"></select>
+
+  
+    </select>
+</fieldset>
+</div>
+
+<div id= "check" onclick="appear();">
+    Procced to Checkout
+</div>
+
+
+
+<div id = "table" style="display: none;">
+<table border= "5" width= "350" cellpadding = "25" cellspacing = "20"
+       bordercolor = "#93edc7" style="border-radius: 15px;">
+    <tr style= "background-color:  #73d462;">
+        <td>Admin fee</td>
+        <td>$40</td>
+
+    </tr>
+    <tr style= "background-color:  #73d462;">
+        <td>Total options</td>
+        <td><output></td>
+    </tr>
+     <tr style= "background-color:  #73d462;">
+        <td>Shipping</td>
+        <td><output></td>
+    </tr>
+      <tr style="background-color: green; color: white;">
+        <td>Total</td>
+        <td><output></td>
+    </tr>
+</table>
+</div>
+
+
+
+
+
+
+<div id=footer>2020 © JOKER CLOTHING INC: AUS</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+      
+      getOptions();
+      
+    </script>
+
+</body>
+</html>
