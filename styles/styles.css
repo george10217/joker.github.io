@@ -1,4 +1,4 @@
-html, body{
+html, body{  /*creates the general size of the body of both pages */
     margin:0;
     padding: 0;
     height: 100%;
@@ -8,7 +8,7 @@ html, body{
     position: absolute;
 }
 
-.intro{
+.intro{  /*This is the div that outputs the background image with the two people wearing clothes */
     height: 100%;
     width: 100%;
     margin: auto;
@@ -18,7 +18,7 @@ html, body{
     background-size: cover;
 }
 
-.intro .inner{
+.intro .inner{ 
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -39,7 +39,7 @@ html, body{
     font-size: 500%;
 }
 
-.btn{
+.btn{/*This is the div with the get started button */
     border: solid #00b4e1 3px;
     border-radius: 9px;
     font-family: 'Oswald',sans-serif;
@@ -51,7 +51,7 @@ html, body{
     
 }
 
-.btn:hover{
+.btn:hover{/*This allows the button to make the smooth colour transition */
     transition:color 2000ms, color 1000ms;
     color: #FFFFFF;
     border: solid #FFFFFF 3px;
@@ -75,7 +75,7 @@ h2{
     position: absolute;
 }
 
-#logohold{
+#logohold{ /*this is the black round box that holds the joker image on the landing page */
     background-color: black;
     width: 250px;
     height: 250px;
@@ -90,19 +90,19 @@ h2{
     margin-left: 30px;
 }
 
-#nbar{
+#nbar{  /*this is the styling for the navigation bar*/
     background-color: black;
     width: 1440px;
     height: 115px;
     margin-top: 0px;
 }
 
-#nbar img{
+#nbar img{  /*this postion the image within the nbar*/
     margin-left: 20px;
     margin-top: 10px;
 }
 
-#jokhead{
+#jokhead{  /*this determines the size of the image*/
     height: 150px;
     width: 450px;
     margin-left: 85px;
@@ -110,7 +110,7 @@ h2{
     margin-top: -130px;
 }
 
-.div{
+.div{ /*this is one of 6 div classes that all detmerine the colour,size and position of each 'tile' with the clothes in it*/
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   height: 300px;
   width: 275px;
@@ -121,8 +121,8 @@ h2{
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 25px;
-  margin-top: 5px;
+  margin-left: 10px;
+  margin-top: -15px;
 font-family: sans-serif;
 }
 .div1{
@@ -136,7 +136,7 @@ font-family: sans-serif;
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 350px;
+  margin-left: 310px;
   margin-top: -400px;
 font-family: sans-serif;
 }
@@ -152,10 +152,27 @@ font-family: sans-serif;
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 675px;
+  margin-left: 610px;
   margin-top: -400px;
 font-family: sans-serif;
 }
+
+.Nos{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1cd8d2, #93edc7);
+  color: white;
+  margin: 100px 0;
+  border-radius: 7px;
+  margin-left: 910px;
+  margin-top: -400px;
+  font-family: sans-serif;
+}
+
 
 .div3{
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -168,7 +185,7 @@ font-family: sans-serif;
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 25px;
+  margin-left: 10px;
   margin-top: -70px;
 font-family: sans-serif;
 }
@@ -184,14 +201,14 @@ font-family: sans-serif;
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 350px;
+  margin-left: 310px;
   margin-top: -400px;
 font-family: sans-serif;
   
 }
 
 .div5{
-   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   height: 300px;
   width: 275px;
   display: flex;
@@ -201,17 +218,54 @@ font-family: sans-serif;
   color: white;
   margin: 100px 0;
   border-radius: 7px;
-  margin-left: 675px;
+  margin-left: 610px;
   margin-top: -400px;
-font-family: sans-serif;
+  font-family: sans-serif;
   
 }
 
-#check{
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-position: absolute;
+.Nop{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(to right, #1cd8d2, #93edc7);
-  border: none;
+  color: white;
+  margin: 100px 0;
+  border-radius: 7px;
+  margin-left: 910px;
+  margin-top: -400px;
+  font-family: sans-serif;
+}
+
+.info{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  height: 380px;
+  width: 305px;
+  display: flex;
+  border: solid grey;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1cd8d2, #93edc7);
+  color: white;
+  margin: 100px 0;
+  border-radius: 7px;
+  margin-left: 1055px;
+  margin-top: -485px;
+  font-family: sans-serif;
+}
+
+iframe{
+    height: 350px;
+    width: 275px;
+}
+
+#check{ 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  background: linear-gradient(to right, #1cd8d2, #93edc7);
   border: solid grey;
   cursor:pointer;
   color: #FFFFFF;
@@ -221,7 +275,7 @@ position: absolute;
   height: 25px;
   font-size: 20px;
   font-family: sans-serif;
-  margin-left: 1025px;
+  margin-left: 1055px;
   text-align: center;
   overflow: hidden;
   margin-top: 25px;
@@ -235,8 +289,8 @@ position: absolute;
 
 
 
-#table{
-    margin-left: 1005px;
+#table{  /*this determines the placement of the table, the size and the colours*/
+    margin-left: 1035px;
     position: absolute;
     margin-top: 150px;
     background: linear-gradient(to right, #1cd8d2, #93edc7);
@@ -246,14 +300,14 @@ position: absolute;
 
 
 
-td{
+td{  /*this determines the shape of each cell in the table */
     border-radius: 15%;
     font-family: sans-serif;
 }
 
-#fset{
+#fset{ /*this detemrines the styles of the div that holds the dropdown list*/
     width:275px;
-    margin-left: 1025px;
+    margin-left: 1055px;
     text-align: center;
     margin-top: -700px;
     background:linear-gradient(to right, #1cd8d2, #93edc7);
@@ -263,7 +317,7 @@ td{
     
 }
 
-input{
+input{  /*this changes the radio buttons be bigger*/
      height:25px;
      width:25px;
      cursor:pointer;
@@ -271,7 +325,7 @@ input{
 }
 
 
-#footer{
+#footer{  /*this styles the footer div and where the text is algined and the colour*/
     width: 1440px;
     height: 40px;
     background-color: black;
@@ -281,6 +335,4 @@ input{
     color: white;
     margin-top: 605px;
 }
-
-
 
