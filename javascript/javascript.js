@@ -34,7 +34,7 @@ function ething(){ //this is the main module that operates the code in the order
     {
         if(selectedshirt[i].checked) //the price is checked based on the condition 
         {
-            Shirtprice = shirt_prices[selectedshirt[i].value];
+            Shirtprice = shirt_prices[selectedshirt[i].value]; // the price of the shirt is determined through 'i'
             break; 
         }
     }
@@ -65,16 +65,16 @@ function getPantprice(){
 
 
  var shipping_prices= new Array();
- shipping_prices["Stand"]=30;
- shipping_prices["threeday"]=50;
- shipping_prices["Onight"]=90;
+ shipping_prices["Stand"]=10;
+ shipping_prices["threeday"]=30;
+ shipping_prices["Onight"]=60;
 
 
 
 function getshipprice(){ //gets the price of the shipping from the select tag 'dropdown list'
     var shipping=0;
-    var theForm = document.forms["Options"];
-     var selectedshipping = theForm.elements["dList"];
+    var Form = document.forms["Options"];
+     var selectedshipping = Form.elements["dList"];
 
     shipping = shipping_prices[selectedshipping.value];
 
