@@ -3,7 +3,6 @@
 function appear(){
            $('#table').fadeIn(1500);
            $('.info').fadeOut(500);
-           ething();
 }
 
 function appear1(){
